@@ -33,51 +33,46 @@ public class PrintInvitations {
 			// Get XML parent object
 			Object allObjects = decoder.readObject();
 			decoder.close();
-
 			
 			// Get children of object
 			ArrayList<Person> persons = (ArrayList<Person>) allObjects;
 			
+			
+			// Get invitation template
+			Template template = Velocity.getTemplate("invitation.vm");
+			
+			// Write to an invitations file, that shall contain all invitations
+			FileWriter out = null;
+			// Create / open file
+			out = new FileWriter("invitations.txt");
+			
+			// Create context
+			VelocityContext context = new VelocityContext();
+			
+
+			
+			// Iterate through invitation list
 			for (Person person : persons)
 			{
 				System.out.println(person.getFirstName());
-
-				
-				VelocityContext context = new VelocityContext();
 				context.put( "person", person);
-
-				
-				
-				Template template = Velocity.getTemplate("invitation.vm");
-				
-				// Write to an invitations file, that shall contain all invitations
-				FileWriter out = null;
-				try {
-					out = new FileWriter("invitations.txt");
-				} catch (IOException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
-
 				template.merge(context, out);
-				
-				try {
-					out.close();
-				} catch (IOException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
-				
-				
-				
-				
-				
+			}
+
+
+			
+			try {
+				out.close();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
 			}
 		}
 		catch (Exception e)
 		{
 			e.printStackTrace();
 		}
+
 		
 			
 	}
