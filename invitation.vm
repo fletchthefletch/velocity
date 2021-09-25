@@ -1,0 +1,11 @@
+To $student.firstName $student.name ,
+
+Our records show that you are enrolled in the following degree:
+
+	$student.degree
+
+with the major(s):
+
+#foreach( $major in $student.majors ) 
+	$major
+#end 
