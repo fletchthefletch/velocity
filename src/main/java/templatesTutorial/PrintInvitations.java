@@ -59,14 +59,13 @@ public class PrintInvitations {
 			// Close file
 			out.close();
 			
+			System.out.println("Generated batch invitations");
+			
 		}
 		catch (Exception e)
 		{
 			e.printStackTrace();
 		}
-
-		
-			
 	}
 
 }
