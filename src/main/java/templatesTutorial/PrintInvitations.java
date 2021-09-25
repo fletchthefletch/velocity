@@ -1,12 +1,10 @@
 package templatesTutorial;
 
-import java.awt.List;
 import java.beans.XMLDecoder;
 import java.io.BufferedInputStream;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
-import java.io.IOException;
 import java.util.ArrayList;
 
 import org.apache.velocity.Template;
@@ -25,8 +23,8 @@ public class PrintInvitations {
 			           new BufferedInputStream(
 			               new FileInputStream("friends.xml")));
 		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
+			return;
 		}
 		
 		try {
@@ -35,6 +33,7 @@ public class PrintInvitations {
 			decoder.close();
 			
 			// Get children of object
+			@SuppressWarnings("unchecked")
 			ArrayList<Person> persons = (ArrayList<Person>) allObjects;
 			
 			
