@@ -1,0 +1,65 @@
+To Tim $student.name ,
+
+Our records show that you are enrolled in the following degree:
+
+	$student.degree
+
+with the major(s):
+
+ To Tom $student.name ,
+
+Our records show that you are enrolled in the following degree:
+
+	$student.degree
+
+with the major(s):
+
+ To Amy $student.name ,
+
+Our records show that you are enrolled in the following degree:
+
+	$student.degree
+
+with the major(s):
+
+ To Anne $student.name ,
+
+Our records show that you are enrolled in the following degree:
+
+	$student.degree
+
+with the major(s):
+
+ To Fred $student.name ,
+
+Our records show that you are enrolled in the following degree:
+
+	$student.degree
+
+with the major(s):
+
+ To Max $student.name ,
+
+Our records show that you are enrolled in the following degree:
+
+	$student.degree
+
+with the major(s):
+
+ To Walter $student.name ,
+
+Our records show that you are enrolled in the following degree:
+
+	$student.degree
+
+with the major(s):
+
+ To Kate $student.name ,
+
+Our records show that you are enrolled in the following degree:
+
+	$student.degree
+
+with the major(s):
+
+ 
