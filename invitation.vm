@@ -1,11 +1,12 @@
-To $person.firstName $student.name ,
+To
+$person.firstName $person.name
+$address.number $address.street
+$address.town
 
-Our records show that you are enrolled in the following degree:
+Dear $person.firstName,
 
-	$student.degree
+I would like to invite you to a party this Saturday, 8PM at my place.
 
-with the major(s):
+Cheers, me
 
-#foreach( $major in $student.majors ) 
-	$major
-#end 
+----------------------------------------------------------------

@@ -49,24 +49,17 @@ public class PrintInvitations {
 			// Create context
 			VelocityContext context = new VelocityContext();
 			
-
-			
 			// Iterate through invitation list
 			for (Person person : persons)
 			{
-				System.out.println(person.getFirstName());
 				context.put( "person", person);
+				context.put( "address", person.getAddress());
 				template.merge(context, out);
 			}
 
-
+			// Close file
+			out.close();
 			
-			try {
-				out.close();
-			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
 		}
 		catch (Exception e)
 		{

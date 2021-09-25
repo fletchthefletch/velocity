@@ -1,65 +1,96 @@
-To Tim $student.name ,
+To
+Tim MacDonald
+100 Main Street
+Palmerston North
 
-Our records show that you are enrolled in the following degree:
+Dear Tim,
 
-	$student.degree
+I would like to invite you to a party this Saturday, 8PM at my place.
 
-with the major(s):
+Cheers, me
 
- To Tom $student.name ,
+----------------------------------------------------------------
+To
+Tom Smith
+42 Cuba Street
+Palmerston North
 
-Our records show that you are enrolled in the following degree:
+Dear Tom,
 
-	$student.degree
+I would like to invite you to a party this Saturday, 8PM at my place.
 
-with the major(s):
+Cheers, me
 
- To Amy $student.name ,
+----------------------------------------------------------------
+To
+Amy Turner
+3 Worchester Street
+Palmerston North
 
-Our records show that you are enrolled in the following degree:
+Dear Amy,
 
-	$student.degree
+I would like to invite you to a party this Saturday, 8PM at my place.
 
-with the major(s):
+Cheers, me
 
- To Anne $student.name ,
+----------------------------------------------------------------
+To
+Anne O'Brian
+4 Manchester Street
+Feilding
 
-Our records show that you are enrolled in the following degree:
+Dear Anne,
 
-	$student.degree
+I would like to invite you to a party this Saturday, 8PM at my place.
 
-with the major(s):
+Cheers, me
 
- To Fred $student.name ,
+----------------------------------------------------------------
+To
+Fred Miller
+55 Salisbury Street
+Ashhurst
 
-Our records show that you are enrolled in the following degree:
+Dear Fred,
 
-	$student.degree
+I would like to invite you to a party this Saturday, 8PM at my place.
 
-with the major(s):
+Cheers, me
 
- To Max $student.name ,
+----------------------------------------------------------------
+To
+Max Meyer
+77 Main Street
+Palmerston North
 
-Our records show that you are enrolled in the following degree:
+Dear Max,
 
-	$student.degree
+I would like to invite you to a party this Saturday, 8PM at my place.
 
-with the major(s):
+Cheers, me
 
- To Walter $student.name ,
+----------------------------------------------------------------
+To
+Walter Mueller
+22 Cook Street
+Palmerston North
 
-Our records show that you are enrolled in the following degree:
+Dear Walter,
 
-	$student.degree
+I would like to invite you to a party this Saturday, 8PM at my place.
 
-with the major(s):
+Cheers, me
 
- To Kate $student.name ,
+----------------------------------------------------------------
+To
+Kate Wang
+12 Albert Street
+Palmerston North
 
-Our records show that you are enrolled in the following degree:
+Dear Kate,
 
-	$student.degree
+I would like to invite you to a party this Saturday, 8PM at my place.
 
-with the major(s):
+Cheers, me
 
- 
+----------------------------------------------------------------
